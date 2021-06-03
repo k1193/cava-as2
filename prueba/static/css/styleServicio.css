@@ -1,0 +1,52 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ 
+ body{
+     background: url(../imagenes/i.jpg);
+     background-size: cover;
+     background-attachment: fixed;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ 
+ .contenedor-form  input[type="text"]{
+    
+    color: #b80e0e;
+    border: none;
+    width: 70%;
+    padding: 10px 0;
+    font-weight: normal;
+    font-family: roboto;
+    letter-spacing: 1px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.contenedor-form  input[type="text"]:hover{
+    background: rgba(0, 117, 217, 0.7);
+}
+
+.contenedor-form  input[type="text"]:focus,
+.contenedor-form  input[type="text"]:focus,
+.contenedor-form  input[type="button"]:focus {
+    border-bottom: 7px solid #c91c1c;}
+
+    .contenedor-form .textarea   {
+        color: rgb(185, 12, 12);
+        text-decoration: none;
+        font-size: 16px;
+
+    }
+    
+    #buton{
+        border-right-color: #c91c1c;
+
+    }
+
+   
+
+    

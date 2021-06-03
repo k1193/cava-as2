@@ -1,0 +1,49 @@
+{% extends 'layout.html' %}
+{% block body %}
+
+<br>
+
+<div class="container">
+  <form method="POST" action="{{url_for('register')}}">
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Full Name</label>
+        <input type="text" class="form-control" name="username" aria-describedby="username">
+        
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">E-Mail Address</label>
+        <input type="text" class="form-control" name="EMail">
+      </div>
+
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Country</label>
+        <input type="text" class="form-control" name="Country">
+      </div>
+
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">city</label>
+        <input type="text" class="form-control" name="city">
+      </div>
+
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">password</label>
+        <input type="password" class="form-control" name="password">
+      </div>
+
+      <div class="mb-3">
+        <select class="form-control" type="text" id="rol_name" name="rol_name">
+          <option>selecionar...</option>
+          <option>Anfitrion</option>
+          <option>Invitado</option>
+          
+      </select>
+      </div>
+
+
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+</div>
+
+
+{% endblock %}  
+

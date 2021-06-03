@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <title> Cavañas </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="path/to/css/smart-forms.css">
+        <link rel="stylesheet" href="path/to/css/font-awesome.min.css">   
+      
+        <link rel="stylesheet" href="{{url_for('static',filename='css/reserva.css')}}">    
+  </head>
+  <body>
+
+
+
+
+
+
+
+        {% block body %}
+        {% endblock %}
+
+
+        <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+        <script type="text/javascript" src="js/jquery-ui-custom.min.js"></script>
+        <script type="text/javascript" src="js/jquery.validate.min.js"></script>
+        <script type="text/javascript" src="js/additional-methods.min.js"></script>
+        <script  src="{{url_for('static', filename='js/reserva.js')}}"></script>
+</body>
+</html>
